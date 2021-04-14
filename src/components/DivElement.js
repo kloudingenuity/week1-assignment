@@ -2,9 +2,9 @@
 import HTMLElement from './HTMLElement';
 
 // Define class here
-class DivElement extends HTMLElement {
+class DivElement extends HTMLElement{
     constructor(content){
-        super("div", content);
+        super('div', content);
     }
 }
 

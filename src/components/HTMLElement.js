@@ -6,11 +6,10 @@ class HTMLElement {
     }
 
     render() {
-        return `<${this.tag}>${this.content}</${this.tag}>`
+        return `<${this.tag}>${this.content}</${this.tag}>`;
     }
 }
 
 
 // Export class here
 export default HTMLElement;
-
