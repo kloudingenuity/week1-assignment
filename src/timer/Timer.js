@@ -1,5 +1,5 @@
-class Timer{
-    constructor(seconds){
+class Timer {
+  constructor(seconds) {
     this.seconds = seconds;
   }
 

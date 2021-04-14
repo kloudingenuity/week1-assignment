@@ -1,6 +1,6 @@
 import people from './people.json';
 
-people.forEach(person => {
+people.forEach((person) => {
   const [firstName, lastName, email, phone] = [...person.name.split(' '), person.email, person.phone];
 
   console.log(`First name: ${firstName}
